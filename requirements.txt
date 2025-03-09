@@ -1,0 +1,13 @@
+streamlit==1.36.0
+google-generativeai==0.7.2
+python-dotenv==1.0.1
+PyPDF2==3.0.1
+scikit-learn==1.5.1
+
+
+
+# streamlit==1.36.0: The web framework for your app’s UI (latest stable version as of now).
+# google-generativeai==0.7.2: The library to interact with Google’s Gemini AI model (used in parser.py and analyzer.py).
+# python-dotenv==1.0.1: Loads environment variables (e.g., GOOGLE_API_KEY) from .env.
+# PyPDF2==3.0.1: Extracts text from PDF files (for resumes and job descriptions in utils.py).
+# scikit-learn==1.5.1: Provides tools like TfidfVectorizer and cosine_similarity for matching skills (used in matcher.py).`
