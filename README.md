@@ -39,18 +39,6 @@ Resume Analyzer with Gemini AI is a Streamlit-based web application that evaluat
 2. Upload a resume and job description in PDF format.
 3. View the matching score, skills analysis, and improvement suggestions.
 
-## Project Structure
-```
-D:\Projects\Resume_Analyzer\
-├── App\
-│   ├── main.py       # Streamlit app entry point
-│   ├── parser.py     # Parses text into JSON using Gemini
-│   ├── matcher.py    # Calculates match between resume and job
-│   ├── analyzer.py   # Generates suggestions
-│   ├── utils.py      # Extracts text from PDFs
-├── .env              # Stores GOOGLE_API_KEY
-└── requirements.txt  # Lists dependencies
-```
 
 ## License
 This project is licensed under the MIT License.
